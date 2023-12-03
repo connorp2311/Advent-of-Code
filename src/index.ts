@@ -14,8 +14,6 @@ process.argv.forEach((arg) => {
 	}
 });
 
-process.env.npm_config_day = day.toString();
-
 const parseInput = (path: string) => {
 	const input = readFileSync(path, {
 		encoding: 'utf-8'
